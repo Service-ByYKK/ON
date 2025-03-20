@@ -1,0 +1,203 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+            user-select: none;
+        }
+
+        #payment {
+            width: calc(100% - 40px);
+            max-width: 300px;
+            margin: 0;
+        }
+
+        #refund {
+            width: calc(100% - 40px);
+            max-width: 300px;
+            margin: 25px 0;
+        }
+
+        #card {
+            padding: 0 15px;
+            margin: 0 20px;
+            max-width: 320px;
+            box-sizing: border-box;
+        }
+        h1 {
+    color: #00aaff;
+    font-size: 24px;
+}
+
+
+        p {
+            margin: 5px 0;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 22px;
+            font-size: 14px;
+        }
+
+        #fullname, #mmyy {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+        }
+
+        #mmyy {
+            margin: 10px 0 0 0;
+        }
+
+        #firstname, #lastname, #mm, #yy {
+            width: 48%;
+        }
+
+        #inputfirstname, #inputlastname, #inputphonenumber, #cardnumber, #inputmm, #inputyy, #cvv {
+            box-sizing: border-box;
+        }
+
+        #inputcardnumber {
+            letter-spacing: 2px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #inputcvv {
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        input[type="number"] {
+            -moz-appearance: textfield;
+            appearance: textfield;
+        }
+
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        #button {
+        margin: 20px 0 0 0;
+        padding: 22px 5px;
+        background-color: #00a2f0;
+        color: #fff;
+        border-radius: 22px;
+        box-sizing: border-box;
+        max-width: 360px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+#button:active {
+    background-color: #00a2f0;
+}
+
+        #title {
+            width: calc(100% - 40px);
+            max-width: 400px;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-size: 25px;
+            color: #00a2f0;
+           
+        }
+
+        #description {
+            width: calc(100% - 40px);
+            max-width: 250px;
+            margin: 20px 0;
+            padding: 0;
+            font-size: 12px;
+            font-weight: normal;
+            text-align: center;
+            color: #637463;
+        }
+
+        #footer {
+    background-color: #00a2f0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+#assistance {
+    margin: 0 0 10px 0;
+    width: fit-content;
+    font-size: clamp(8px, 4vw, 14px);
+}
+
+#social p, #links p {
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 0 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#social, #links {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    width: fit-content;
+}
+
+.en {
+    color: #000000;
+    margin: 0 0 0 8px;
+    font-size: clamp(10px, 4vw, 14px);
+}
+
+#copyright {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: normal;
+    width: fit-content;
+}
+.operators {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.operators label {
+    cursor: pointer;
+}
+
+.operators img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+.operators input[type="radio"] {
+    display: none;
+}
+
+.operators input[type="radio"]:checked + img {
+    border-color: #
+}
